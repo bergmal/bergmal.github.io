@@ -1,0 +1,190 @@
+/* ====================================================================
+		container tags
+==================================================================== */
+
+	html 	
+	{
+		background: url(http://metaskills.net/assets/content/svg-planet-stars.png) no-repeat center center fixed;
+		background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		-webkit-background-size: cover;
+	}
+
+	body
+	{
+	/*	background-color: green;	*/
+	}
+	
+	form
+	{
+		width:auto;
+		border:5px;
+		border-color:#e69100;
+		border-style:solid;
+		font-size:10px;
+		background-color:#062432/*#072837*/;
+	}
+
+	nav
+	{
+		width: 10%;
+		float: left;
+		text-align: center;
+		display: block;
+		padding: 10px;
+	/*	background-color: green;	*/
+	}
+
+	aside
+	{
+		width: 20%;
+		float: left;
+		text-align: center;
+		display: block;
+		padding: 10px;
+	/*	background-color: yellow;	*/
+	}
+
+
+	header
+	{
+		width: auto;
+		text-align: center;
+		float: center; 
+		display: block;
+		padding: 30px;
+	/*	background-color: purple;	*/
+	}
+
+	footer
+	{
+		width: auto;
+		text-align: center;
+		float: center;
+		display: block;
+		padding: 10px;
+	/*	background-color: grey;		*/
+	}
+
+	article
+	{
+		width: auto;
+		text-align: center;
+		float: center;
+		display: block;
+		padding: 10px;
+	/*	background-color: orange;	*/	
+	}
+
+/* ====================================================================
+		text tags
+==================================================================== */
+
+	p
+	{
+		color:#ddd;
+		font-size:150%;
+		text-align:left;
+	/*	text-indent:15%;	*/
+	}
+
+	h1
+	{
+		color:#ed1d24;
+		font-size:600%;
+	}
+
+	h2
+	{
+		color:green;
+		font-size:300%;
+		text-align:left;
+	/*	text-indent:10%;	*/
+	}
+
+	h3
+	{
+		color:blue;
+	}
+
+	h4
+	{
+		color:yellow;
+	}
+
+	h5
+	{
+		color:green;
+	}
+
+	h6
+	{
+		color:red;
+	}
+
+	a
+	{
+		color:#E77C2E;
+		font-size:120%;
+		text-align:left;	
+	}
+
+/* ====================================================================
+		classes
+==================================================================== */
+
+	p.left
+	{
+		text-align:left;
+		text-indent:30px;
+	}
+	p.center
+	{
+		text-align:center;
+	}
+	.
+	.
+	.
+
+/* ====================================================================
+		identities
+==================================================================== */
+
+	#pageContainer, #contentContainer
+	{
+		width: 100%;
+		float: center;
+		text-align: center;
+		display: block;
+	/*	background-color: blue;		*/
+	}
+
+	#pageSection
+	{
+		width: 45%;
+		float: left;
+		display: block;
+		padding: 10px;
+	/*	background-color: red;		*/
+	}
+
+	#pageFooter
+	{
+		width: 75%;
+		float: left;
+		text-align: left;
+		display: block;
+		padding: 100px;
+		font-size: 50%;
+
+	}
+
+	#pageHeader
+	{
+		width: 75%;
+		float: center;
+		text-align: left;
+		display: block;
+		padding: 100px;
+	}
