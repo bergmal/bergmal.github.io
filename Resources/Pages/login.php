@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<SCRIPT LANGUAGE="JavaScript">
-			var requiredfrom = "index.html"; //  required prev. page
+			var requiredfrom = "https://therandombadass.github.io/webpage/"; //  required prev. page
 		
 			if (document.referrer.indexOf(requiredfrom) == -1) {
 				alert("You must come to this page from " + requiredfrom);
