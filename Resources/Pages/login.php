@@ -1,6 +1,13 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<SCRIPT LANGUAGE="JavaScript">
+			var requiredfrom = "index.html"; //  required prev. page
+		
+			if (document.referrer.indexOf(requiredfrom) == -1) {
+				alert("You must come to this page from " + requiredfrom);
+				window.location=requiredfrom;
+			}
 		<title>Sign-In</title>
 		<link rel="stylesheet" type="text/css" href="..\Resources\login-style.css">
 		<link rel="stylesheet" type="text/css" href="../Resources/icon.ico.crdownload">
