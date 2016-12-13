@@ -134,12 +134,12 @@
 		classes
 ==================================================================== */
 
-	p.left
+	.left
 	{
 		text-align:left;
 		text-indent:30px;
 	}
-	p.center
+	.center
 	{
 		text-align:center;
 	}
