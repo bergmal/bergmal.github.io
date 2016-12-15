@@ -24,7 +24,7 @@
 		border-color:#e69100;
 		border-style:solid;
 		font-size:10px;
-		background-color:/*#062432*/#072837;
+		background-color:#062432/*#072837*/;
 	}
 
 	nav
@@ -153,7 +153,7 @@
 	{
 		width:80%;
 		display:block;
-		background-color:#ff8e3d/*#E77C2E*/;
+		background-color/*:#ff8e3d*/#E77C2E;
 		color:#ddd;
 		text-align:left;
 		padding: 0px 0px 0px 0px;
