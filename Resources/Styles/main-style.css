@@ -152,7 +152,7 @@
 	nav.PriBar
 	{
 		width:80%;
-		min-width:;
+		min-width: 666px;
 		display:block;
 		background-color:/*#ff8e3d*/#E77C2E;
 		color:#ddd;
