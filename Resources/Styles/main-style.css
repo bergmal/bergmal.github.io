@@ -217,7 +217,7 @@
 
 	ul.BarTable
 	{
-		margin:18px 0px 0px 0px;
+		margin:18px 0px 0px -2px;
 		padding:0px;
 		position:absolute;
 		list-style:none;
@@ -238,7 +238,7 @@
 		display:none;
 	}
 
-	ul.BarTable:hover > li
+	ul.BarTable > li:hover
 	{
 		display:table;
 		color:yellow;
