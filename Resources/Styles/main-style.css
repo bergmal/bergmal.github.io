@@ -217,8 +217,8 @@
 
 	ul.BarTable
 	{
-		margin:18px 0px 0px -15px;
-		padding:0px 0px 0px 0px;
+		margin:18px 0px 0px -10px;
+		padding:0px;
 		position:absolute;
 		list-style:none;
 	}
