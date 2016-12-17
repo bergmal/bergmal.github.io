@@ -217,7 +217,7 @@
 
 	ul.BarTable
 	{
-		margin:18px 0px 0px -2px;
+		margin:18px 0px 0px -12px;
 		padding:0px;
 		position:absolute;
 		list-style:none;
@@ -245,7 +245,7 @@
 		border-color:green;
 		border-margin:5px;
 		border-style:solid;
-		color:green;
+		background-color:green;
 		width:300px;
 		font-size:20px;
 	}
