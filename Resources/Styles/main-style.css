@@ -240,7 +240,7 @@
 
 	ul.BarTable > li:hover
 	{
-		display:table;
+		display:block;
 		color:yellow;
 		border-color:green;
 		border-margin:5px;
@@ -249,12 +249,6 @@
 		width:300px;
 		font-size:20px;
 	}
-
-	ul.BarTable > li:hover
-	{
-		background-color:#eee;
-	}
-
 	ul.BarTable > li > a
 	{
 		display:block;
