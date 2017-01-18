@@ -1,3 +1,10 @@
+<nav class="hidden">
+	<!--<ul>
+		<li><a href="https://www.google.com/">Google.com</a></li>
+		<li><a href="login.php">Logg in</a></li>
+	</ul>-->
+</nav>
+
 <section id="pageSection">
 	<header class="sectionHeader">
 		<h2> Bergm&aring;l services </h2>
