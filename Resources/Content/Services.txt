@@ -33,9 +33,3 @@
 	</footer>
 
 </section>
-
-<aside id="pageAside">
-
-	<p> random text in the side place </p>
-
-</aside>
