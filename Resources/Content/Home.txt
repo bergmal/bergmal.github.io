@@ -17,7 +17,3 @@
 		<p> this page is going to be changed frequently due to me learning new stuff, and also feeling like changing the webpage </p>
 	</footer>
 </section>
-
-<aside id="pageAside">
-	<p>random text in the side place</p>
-</aside>
