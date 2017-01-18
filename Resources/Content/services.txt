@@ -1,0 +1,16 @@
+<section id="pageSection">
+	<header class="sectionHeader">
+		<h2> Bergm&aring;l services </h2>
+		<p> stuff ve do </p>
+	</header>
+	<article class="sectionArticle">
+		<p> no services is aviable at the moment </p>
+	</article>
+	<footer class="sectionFooter">
+		<p> when services is aviable they will be added here </p>
+	</footer>
+</section>
+
+<aside id="pageAside">
+	<p>random text in the side place</p>
+</aside>
