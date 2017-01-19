@@ -1,13 +1,48 @@
 <!doctype html>
 <html>
 	<head>
+		
+		
+		<!--===========================google adds==========================-->
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+		  (adsbygoogle = window.adsbygoogle || []).push({
+			google_ad_client: "ca-pub-7307354119909879",
+			enable_page_level_ads: true
+		  });
+		  
+		</script>
+		<!--================================================================-->
+		
+		
 		<title>Bergmal</title>
+		
+		
 		<link rel="stylesheet" type="text/css" href="Resources\Styles\main-style.css">
 		<link rel="icon" href="Resources/Pictures/icon.ico.crdownload">
-		<title>bergmal</title>
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript">
+
+			function home(){
+
+				$("#contentContainer").load("https://bergmal.github.io/Resources/Content/Home.txt");
+
+			}
+
+			function services(){
+
+				$("#contentContainer").load("https://bergmal.github.io/Resources/Content/Services.txt");
+
+			}
+
+			$(Document).ready(function(){
+				home();
+			});
+
+		</script>
 	</head>
-
-
 
 	<body>
 		<div id="pageContainer">
@@ -17,19 +52,29 @@
 			</header>
 			<nav class="PriBar">
 				<ul>
-					<li>
-						<a href="https://therandombadass.github.io/webpage">home</a>
+					<li onclick="home()">
+						<a>home</a>
+					</li>
+					<li onclick="services()">
+						<a>services</a>
+						
 					</li>
 					<li>
-						<a href="#">services</a>
+						<a href="#">projects</a>
 						<ul class="BarTable">
-							<li><a href="http://wad.comxa.com/home.html">wad page</a></li>
 							<li><a href="#">samples2</a></li>
 						</ul>
 					</li>
-					<li><a href="#">projects</a></li>
-					<li><a href="#">etc</a></li>
-					<li><a href="#">contact us</a></li>
+					<li>
+						<a href="#">etc</a>
+						<ul class="BarTable">
+							<li><a href="http://wad.comxa.com/home.html">wad page</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">contact us</a>
+						
+					</li>
 				</ul>
 			</nav>
 			<div id="contentContainer" class="clearfix">
@@ -38,27 +83,43 @@
 						<li><a href="https://www.google.com/">Google.com</a></li>
 						<li><a href="login.php">Logg in</a></li>
 					</ul>-->
-				</nav>
+						</nav>
 
 				<section id="pageSection">
 					<header class="sectionHeader">
-						<h2> Bergm&aring;l homepage </h2>
-						<p> Home sweet home</p>
+						<h2> Bergm&aring;l webpage </h2>
+						<p> error 404 </p>
 					</header>
 					<article class="sectionArticle">
-						<p> this page exist to serve as a way for me to practice how to do webdesign and general programming and network systems </p>
+						<p> content is currently unaviable </p>
 					</article>
 					<footer class="sectionFooter">
-						<p> this page is going to be changed frequently due to me learning new stuff, and also feeling like changing the webpage </p>
+						<p> when content is aviable it will appear here </p>
 					</footer>
 				</section>
-
-				<aside id="pageAside">
-					<p>random text in the side place</p>
-				</aside>
 			</div>
+			<aside id="pageAside">
+				<div id="AsideComercial">
+
+				
+
+				</div>
+			</aside>
 			<br/>
 			<footer id="pageFooter">
+				<div id=""FooterComercial">
+				
+					<!-- Start of adf.ly banner code -->
+					<div style="width: 728px; text-align: center; font-family: verdana; font-size: 10px;">
+						<a href="https://join-adf.ly/15648867">
+							<img border="0" src="https://cdn.adf.ly/images/banners/adfly.728x90.1.gif" width="728" height="90" title="AdF.ly - shorten links and earn money!" />
+						</a>
+						<br />
+						<a href="https://join-adf.ly/15648867">Get paid to share your links!</a>
+					</div>
+					<!-- End of adf.ly banner code -->
+				
+				</div>
 				<p> all rights are reserved Lars birger Bergmål </p>
 			</footer>
 		</div>
