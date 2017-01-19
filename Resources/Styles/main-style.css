@@ -40,8 +40,9 @@
 
 	aside
 	{
+		min-width: 240px;
 		width: 20%;
-		float: left;
+		float: right;
 		text-align: center;
 		display: block;
 		padding: 10px;
@@ -102,7 +103,7 @@
 
 	h2
 	{
-		color:green;
+		color:#007000;
 		font-size:300%;
 		text-align:left;
 	/*	text-indent:10%;	*/
@@ -120,7 +121,7 @@
 
 	h5
 	{
-		color:green;
+		color:#007000;
 	}
 
 	h6
@@ -163,7 +164,7 @@
 		border-radius:50px 100px 20px 50px;
 		border-width:5px;
 		border-style:solid;
-		border-color:green;
+		border-color:#007000;
 	}
 
 	nav.PriBar > ul
@@ -181,7 +182,7 @@
 
 	nav.PriBar > ul > li:hover
 	{
-		background-color:green;
+		background-color:#008000/*#ff9447*/;
 	} 
 
 	nav.PriBar > ul > li > a
@@ -209,7 +210,7 @@
 		background-color:#E77C2E;
 		width:300px;
 		height:40px;
-		border-color:green;
+		border-color:#007000;
 		border-margin:2px;
 		border-style:solid;
 		font-size:20px;
@@ -238,17 +239,18 @@
 		display:none;
 	}
 
-	ul.BarTable > li:hover
+	nav.PriBar > ul > li:hover > ul.BarTable > li:hover,nav.PriBar > ul > li > ul.BarTable > li:hover
 	{
 		display:block;
 		color:yellow;
-		border-color:green;
-		border-margin: 5px;
+		border-color:#007000;
+/*		border-margin: 5px;	*/
 		border-style:solid;
-		background-color:green;
+		background-color:/*#BD7D26*/#ff9447;
 		width:300px;
 		font-size:20px;
 	}
+	
 	ul.BarTable > li > a
 	{
 		display:block;
@@ -256,7 +258,7 @@
 		text-decoration:none;
 		text-indent:50px;
 	}
-
+	
 	.hidden
 	{
 		display:hidden;
