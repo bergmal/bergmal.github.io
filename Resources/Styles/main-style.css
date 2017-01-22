@@ -131,7 +131,7 @@
 
 	a
 	{
-		color:#E77C2E;
+		color:#d9d/*#E77C2E*/;
 		font-size:120%;
 		text-align:left;	
 	}
@@ -153,6 +153,7 @@
 	nav.PriBar
 	{
 		width:80%;
+		height:80px;
 		min-width: 666px;
 		display:block;
 		background-color:/*#ff8e3d*/#E77C2E;
@@ -165,6 +166,8 @@
 		border-width:5px;
 		border-style:solid;
 		border-color:#007000;
+		border-width:5px;
+		box-shadow:11px 9px 3px #003000;
 	}
 
 	nav.PriBar > ul
@@ -175,6 +178,7 @@
 	nav.PriBar > ul > li
 	{
 		display:inline-block;
+		height:44px;
 		padding:18px 1%;
 		min-width:10%;
 		margin: 0px;
@@ -204,21 +208,23 @@
 		display:none;
 	}
 
-	nav.PriBar > ul > li:hover > ul.BarTable > li
+	nav.PriBar > ul > li:hover > ul.BarTable > li , ul.BarTable:hover > li, ul.BarTable > li:hover ~ nav.PriBar > ul > li > ul.BarTable > li
 	{
 		display:table;
+		padding:5px 0px 0px 0px;
 		background-color:#E77C2E;
 		width:300px;
 		height:40px;
 		border-color:#007000;
-		border-margin:2px;
+		border-width:5px 5px 5px 5px;
 		border-style:solid;
 		font-size:20px;
+		box-shadow:6px 6px 3px #003000;
 	}
 
 	ul.BarTable
 	{
-		margin:18px 0px 0px -14px;
+		margin:28px 0px 0px -12px;
 		padding:0px;
 		position:absolute;
 		list-style:none;
@@ -244,13 +250,13 @@
 		display:block;
 		color:yellow;
 		border-color:#007000;
-/*		border-margin: 5px;	*/
+/*		border-width: 5px;	*/
 		border-style:solid;
 		background-color:/*#BD7D26*/#ff9447;
 		width:300px;
 		font-size:20px;
 	}
-	
+
 	ul.BarTable > li > a
 	{
 		display:block;
@@ -258,16 +264,35 @@
 		text-decoration:none;
 		text-indent:50px;
 	}
-	
+
+	.Comercial
+	{
+		box-shadow:5px 5px 6px #07b;
+		border-radius:10px 50px 20px 30px;
+		background-color:#269eda;
+		padding:25px;
+	}
+
+	.comercialContent *
+	{
+		float:center;
+	}
+
 	.hidden
 	{
 		display:hidden;
 	}
+
 /* ====================================================================
 		identities
 ==================================================================== */
 
-	#pageContainer, #contentContainer
+	#contentContainer p
+	{
+		color:#111;
+	}
+
+	#pageContainer
 	{
 		width: 100%;
 		float: center;
@@ -276,12 +301,38 @@
 	/*	background-color: blue;		*/
 	}
 
+	#contentContainer
+	{
+		background-color:#ddd;
+		float: center;
+		text-align: center;
+		display: block;
+	/*	background-color: blue;		*/
+	}
+
+	#mainTitle
+	{
+		/*width:50%;*/
+		width:400px;
+		height:200px;
+		padding:25px;
+		background-color:#005000;
+		border-radius:70px 10px;
+		box-shadow: 6px 4px 3px #003000;
+	}
+
 	#pageSection
 	{
+		margin:35px 0px 45px 0px;
+		width:100%;
+		min-width:350px;
+		background-color:inherit;
 		width: 45%;
 		float: left;
 		display: block;
 		padding: 10px;
+		border-radius:30px 30px 100px 20px;
+		box-shadow: 6px 4px 3px #888;
 	/*	background-color: red;		*/
 	}
 
@@ -291,7 +342,8 @@
 		float: left;
 		text-align: left;
 		display: block;
-		padding: 100px;
+		margin:0px 0px 0px 5%;
+		padding: 0px;
 		font-size: 50%;
 
 	}
@@ -302,5 +354,6 @@
 		float: left;
 		text-align: left;
 		display: block;
-		padding: 30px 150px 30px 50px;
+		padding: 30px 150px 25px 50px;
+
 	}
