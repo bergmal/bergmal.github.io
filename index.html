@@ -2,8 +2,7 @@
 <html>
 	<head>
 		
-		
-		<!--===========================google adds==========================-->
+		<!--===========================google adds==========================
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<script>
 		  (adsbygoogle = window.adsbygoogle || []).push({
@@ -14,7 +13,6 @@
 		</script>
 		<!--================================================================-->
 		
-		
 		<title>Bergmal</title>
 		
 		
@@ -23,67 +21,72 @@
 		
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://bergmal.github.io/Resources/Javascripts/index-functions.js"></script>
+		<script src="https://bergmal.github.io/Resources/Javascripts/default-functions.js"></script>
+		
 		<script type="text/javascript">
-
-			function home(){
-
-				$("#contentContainer").load("https://bergmal.github.io/Resources/Content/Home.txt");
-
-			}
-
-			function services(){
-
-				$("#contentContainer").load("https://bergmal.github.io/Resources/Content/Services.txt");
-
-			}
-
 			$(Document).ready(function(){
 				home();
+				$("#url").text(window.location.url);
+				$("#nav").text(window.location.pathname);
 			});
 
 		</script>
+		
 	</head>
 
 	<body>
 		<div id="pageContainer">
 			<header id="pageHeader">
-				<h1>Bergm&aring;l</h1>
-				<p> The page made for no reason at all </p>
+				<div id="mainTitle">
+					<h1>Bergm&aring;l</h1>
+					<p id="url"> The page made for no reason at all </p>
+					<p id="nav">wkspfjd</p>
+				</div>
 			</header>
+			<br/>
 			<nav class="PriBar">
 				<ul>
 					<li onclick="home()">
 						<a>home</a>
+						<ul class="BarTable">
+							
+						</ul>
 					</li>
 					<li onclick="services()">
 						<a>services</a>
-						
-					</li>
-					<li>
-						<a href="#">projects</a>
 						<ul class="BarTable">
-							<li><a href="#">samples2</a></li>
+							
 						</ul>
 					</li>
-					<li>
-						<a href="#">etc</a>
+					<li onclick="Projects()">
+						<a>projects</a>
 						<ul class="BarTable">
-							<li><a href="http://wad.comxa.com/home.html">wad page</a></li>
+							
 						</ul>
 					</li>
-					<li>
-						<a href="#">contact us</a>
-						
+					<li onclick="Etc()">
+						<a>etc</a>
+						<ul class="BarTable">
+							<li><a href="http://wad.comxa.com/home.html">wad homepage</a></li>
+						</ul>
+					</li>
+					<li onclick="Contact_us()">
+						<a>contact us</a>
+						<ul class="BarTable">
+							
+						</ul>
 					</li>
 				</ul>
 			</nav>
+			<br/>
 			<div id="contentContainer" class="clearfix">
 				<nav class="hidden">
 					<!--<ul>
 						<li><a href="https://www.google.com/">Google.com</a></li>
 						<li><a href="login.php">Logg in</a></li>
 					</ul>-->
-						</nav>
+				</nav>
 
 				<section id="pageSection">
 					<header class="sectionHeader">
@@ -98,7 +101,7 @@
 					</footer>
 				</section>
 			</div>
-			<aside id="pageAside">
+			<aside id="pageAside">	
 				<div id="AsideComercial">
 
 				
@@ -107,10 +110,10 @@
 			</aside>
 			<br/>
 			<footer id="pageFooter">
-				<div id=""FooterComercial">
+				<div id="FooterComercial" class="Comercial">
 				
 					<!-- Start of adf.ly banner code -->
-					<div style="width: 728px; text-align: center; font-family: verdana; font-size: 10px;">
+					<div class="comercialContent" style="width: 728px; text-align: center; font-family: verdana; font-size: 10px;">
 						<a href="https://join-adf.ly/15648867">
 							<img border="0" src="https://cdn.adf.ly/images/banners/adfly.728x90.1.gif" width="728" height="90" title="AdF.ly - shorten links and earn money!" />
 						</a>
