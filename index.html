@@ -27,9 +27,9 @@
 		<script type="text/javascript">
 			$(Document).ready(function(){
 				home();
-				$("#href").text(window.location.href);
-				$("#host").text(window.location.hostname);
-				$("#nav").text(window.location.pathname);
+				var href = $(window.location.href);
+				var domain = $(window.location.hostname);
+				var pathname = $(window.location.pathname);
 			});
 
 		</script>
@@ -42,8 +42,6 @@
 				<div id="mainTitle">
 					<h1>Bergm&aring;l</h1>
 					<p id="href"> The page made for no reason at all </p>
-					<p id="host">page hostname</p>
-					<p id="nav">page pathname</p>
 				</div>
 			</header>
 			<br/>
