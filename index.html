@@ -27,7 +27,8 @@
 		<script type="text/javascript">
 			$(Document).ready(function(){
 				home();
-				$("#url").text(window.location.href);
+				$("#href").text(window.location.href);
+				$("#host").text(window.location.hostname);
 				$("#nav").text(window.location.pathname);
 			});
 
@@ -40,7 +41,8 @@
 			<header id="pageHeader">
 				<div id="mainTitle">
 					<h1>Bergm&aring;l</h1>
-					<p id="url"> The page made for no reason at all </p>
+					<p id="href"> The page made for no reason at all </p>
+					<p id="host">page hostname</p>
 					<p id="nav">page pathname</p>
 				</div>
 			</header>
