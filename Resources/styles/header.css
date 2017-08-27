@@ -1,0 +1,97 @@
+header.mainheader{
+    display: table;
+    padding: 0cm;
+    margin: 0cm;
+    position: fixed;
+    top: 0cm;
+    left: 0cm;
+    background-color: #00b;
+    width: 100%;
+    box-shadow: grey 0px 3px 10px;
+    z-index: 2;
+    word-break: keep-all;
+    word-wrap: normal;
+    white-space: nowrap;
+    font-size: 100%;
+}
+/*==================================*/
+ul.nav, ul.userdiv{
+    display: inline-block;
+    list-style-type: none;
+    background-color: #00b;
+    padding: 0%;
+    margin: 0%;
+}
+
+ul.nav{
+    width: 60%;
+}
+
+ul.nav>li, ul.userdiv>li{
+    display: inline-flex;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+ul.nav>li>a, ul.userdiv>li>a{
+    display: flex;
+    margin: 0cm;
+    padding: 10px 14px;
+    background-color: #00b;
+    text-decoration: none;
+    color: #ddd;
+    height: 100%;
+}
+
+ul.userdiv>li>a{}
+
+
+ul.nav>li>a:hover, ul.userdiv>li>a:hover{
+    background-color: #00f;
+}
+
+    ul.userdiv>li>a{
+        font-size: 80%;
+    }
+
+@media screen and (max-width:550px){
+
+    ul.nav,ul.userdiv{
+        position: static;
+        width: 50%;
+    }
+
+    ul.nav>li, ul.userdiv>li{
+        display: block;
+    }
+
+    header.mainheader{
+        position: relative;
+    }
+
+}
+
+@media screen and (min-width:551px){
+
+    ul.nav>li:first-Child>a{
+        padding-left: 20%;
+    }
+
+    ul.userdiv{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        margin-right: 5%;
+    }
+
+}
+
+@media screen and (min-width:750px){
+
+    ul.userdiv>li>a{
+        font-size: 87%;
+    }
+
+}
