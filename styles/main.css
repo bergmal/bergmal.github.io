@@ -28,6 +28,7 @@ article.mainarticle{
     padding: 1cm;
     margin: 0cm;
     width: 100%;
+    max-width: 1000px;
 }
 
 footer.mainfooter{
