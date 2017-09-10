@@ -19,6 +19,13 @@ h1{
     width: 100%;
 }
 
+p{
+    display: block;
+    word-wrap: break-word;
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
+}
+
 li{
     margin-left: -20px;
 }
@@ -28,6 +35,7 @@ article.mainarticle{
     padding: 1cm;
     margin: 0cm;
     width: 100%;
+    max-width: 1000px;
 }
 
 footer.mainfooter{
